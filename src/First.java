@@ -24,12 +24,12 @@ public class First {
 		         DBObject obj = new BasicDBObject();
 		         obj.put( "foo", "bar" );
 		         System.out.println(db.getCollectionNames());
-		         //db.createCollection("jagjotsingh10",obj);
+		         //db.createCollection("10",obj);
 		         
 		         DBCollection coll = db.getCollection("1111111111");					
 
 		       
-		         DBCollection dbc= db.getCollection("jagjotsingh10");
+		         DBCollection dbc= db.getCollection("10");
 		         DBObject myDoc = dbc.findOne();
 		         System.out.println("doc to be removed"+myDoc);
 		         //dbc.remove(myDoc);
